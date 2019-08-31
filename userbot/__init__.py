@@ -48,9 +48,9 @@ if CONFIG_CHECK:
     LOGS.error("Please remove the line mentioned in the first hashtag from the config.env file")
     quit(1)
 
-API_KEY = os.environ.get("API_KEY", "997434")
+API_KEY = os.environ.get("API_KEY", "1166631")
 
-API_HASH = os.environ.get("API_HASH", "7b39fe96f0277cea4aea397b95ac8ee2")
+API_HASH = os.environ.get("API_HASH", "81dc3e70c35068c0700b3e8d344795e9")
 
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
@@ -77,7 +77,7 @@ OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
 SUDO = os.environ.get("SUDO", None)
 
 YOUTUBE_API_KEY = os.environ.get(
-    "YOUTUBE_API_KEY", None
+    "YOUTUBE_API_KEY", "AIzaSyA8FGstGzGn8yngk5rq1i4isOHO2jKxSwI")
     )
 
 SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME", None)
