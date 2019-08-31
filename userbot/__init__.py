@@ -77,7 +77,7 @@ OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
 SUDO = os.environ.get("SUDO", None)
 
 YOUTUBE_API_KEY = os.environ.get(
-    "YOUTUBE_API_KEY", "AIzaSyA8FGstGzGn8yngk5rq1i4isOHO2jKxSwI")
+    "YOUTUBE_API_KEY", None
     )
 
 SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME", None)
